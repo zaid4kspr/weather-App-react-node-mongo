@@ -1,0 +1,29 @@
+version: "3"
+services:
+  redis:
+    image: redis
+    container_name: cache
+    expose:
+      - 6379
+
+  service-backend:
+    build: service-backend
+    container_name: service-backend
+    ports:
+      - "3300:3300"
+    volumes:
+      - ./service-backend
+    restart: always
+    links:
+      - redis:redis
+
+  frontend:
+    build: frontend
+    ports:
+      - "4400:80"
+    volumes:
+      - ./frontend
+
+    links:
+      - service-backend
+    restart: always

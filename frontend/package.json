@@ -1,0 +1,80 @@
+{
+  "name": "finance_frontend",
+  "version": "1.1.0",
+  "description": "finance dashboard reactJs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Zaid",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css",
+    "minify-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.12.1",
+    "axios": "^0.20.0",
+    "chart.js": "2.9.3",
+    "classnames": "2.2.6",
+    "google-map-react": "^2.1.8",
+    "google-maps-react": "^2.0.6",
+    "jsx-runtime": "^1.2.0",
+    "moment": "2.24.0",
+    "node-sass": "4.14",
+    "nouislider": "14.1.1",
+    "public-ip": "^4.0.3",
+    "react": "^17.0.1",
+    "react-autocomplete": "^1.8.1",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-time-picker": "^2.0.1",
+    "react-bootstrap-typeahead": "^5.1.4",
+    "react-chartjs-2": "2.9.0",
+    "react-copy-to-clipboard": "5.0.2",
+    "react-date-picker": "^8.0.5",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.12.0",
+    "react-flatpickr": "^3.10.6",
+    "react-google-maps": "9.4.5",
+    "react-hook-form": "^6.9.2",
+    "react-js-pagination": "^3.0.3",
+    "react-paginate": "^6.5.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "^3.4.3",
+    "react-search-autocomplete": "^1.0.6",
+    "react-select-search": "^3.0.2",
+    "react-time-picker": "^4.1.1",
+    "reactstrap": "8.4.1",
+    "reactstrap-date-picker": "0.0.11",
+    "recompose": "^0.30.0"
+  },
+  "devDependencies": {
+    "@types/googlemaps": "3.39.2",
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "16.9.19",
+    "eslint-plugin-flowtype": "^3.13.0",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8",
+    "typescript": "3.7.5"
+  }
+}

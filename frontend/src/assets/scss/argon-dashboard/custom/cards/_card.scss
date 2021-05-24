@@ -1,0 +1,67 @@
+//
+// Card
+//
+
+.no-radius {
+  border-radius: 0 !important;
+}
+
+.login-logo {
+  max-width: 160px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.card-translucent {
+  background-color: rgba(18, 91, 152, 0.08);
+}
+
+.card-watchItem {
+  background-image: linear-gradient(#113076, #135899);
+}
+.watchItemTitle {
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  line-height: 1;
+}
+.watchItemTemp {
+  font-weight: 600;
+  font-size: 3rem;
+  color: white;
+}
+.watchItemDesc {
+  font-size: 0.9rem;
+}
+
+.moveToLeft {
+  margin-left: -25px;
+}
+.mainTemp {
+  font-size: 29px;
+  font-weight: 100;
+  margin-right: 8pt;
+}
+
+.tempValue {
+  color: #1b4de4;
+}
+.avgTemp {
+  font-size: 2.25rem;
+  line-height: 0.83em;
+  font-weight: 700;
+}
+.minTemp {
+  font-size: 1.25rem;
+  line-height: 0.83em;
+}
+
+.borderForecast {
+  border-right: 1.7px solid #f4f5fb;
+  border-left: 1.7px solid #f4f5fb;
+}
+
+.moveUp {
+  margin-top: -15px;
+  color: black;
+}
